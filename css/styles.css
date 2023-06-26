@@ -687,6 +687,11 @@ nav{
     font-weight: 500;
 }
 
+.subscribe-form{
+    display: flex;
+    gap: 24px;
+}
+
 .subscribe-field{
     background-color: transparent;
     border: 1px solid var(--banner-color);
@@ -705,11 +710,20 @@ nav{
 }
 
 .subscribe-button{
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 8px 24px;
     background-color: var(--btn-bg);
-    border: 1px solid var(--btn-bg);
     border-radius: 4px;
     color: var(--banner-color);
+
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: none;
 }
 
 .subscribe-button-flexcontainer{
@@ -752,15 +766,19 @@ nav{
 .modal-input-container{
     position: relative;
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
+    line-height: 1.17;
 }
 
 .modal-input{
+    height: 40px;
     width: 100%;
     border-radius: 4px;
     border: 1px solid var(--navyblue-modal);
     padding: 8px 38px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-icon-name{
