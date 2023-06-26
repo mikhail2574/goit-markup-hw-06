@@ -620,7 +620,6 @@ nav{
     height: 100%;
     background-color: #2E2F4266;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 72px 24px 24px;
 }
 
 .backdrop.is-hidden{
@@ -640,7 +639,7 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 24px;
+    padding: 72px 24px 24px 24px;
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -685,6 +684,7 @@ nav{
 .subscribe-title{
     display: inline-block;
     margin-bottom: 16px;
+    font-weight: 500;
 }
 
 .subscribe-field{
@@ -765,9 +765,9 @@ nav{
 
 .modal-icon-name{
     position: absolute;
-    top: 11px;
+    top: 50%;
     left: 16px;
-    transform: translateY(50%);
+    transform: translateY(-50%);
 }
 
 .modal-input:focus{
@@ -866,4 +866,8 @@ svg[class*=modal-icon-]{
 
 .modal-submit-button:hover, .modal-submit-button:focus{
     background-color: var(--active-color);
+}
+
+.call-back-container{
+    margin-bottom: 8px;
 }
