@@ -708,7 +708,7 @@ nav{
 .subscribe-field, .subscribe-field::placeholder{
     color: var(--banner-color);
     font-size: 12px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.48px;
 }
 
