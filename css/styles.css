@@ -809,9 +809,10 @@ svg[class*=modal-icon-]{
 .modal-textinput,
 .modal-textinput::placeholder {
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.17;
     letter-spacing: 0.48px;
-    color: var(--navyblue-modal);
+    color: rgba(46, 47, 66, 0.4);
+
 }
 
 .modal-textinput{
@@ -826,10 +827,13 @@ svg[class*=modal-icon-]{
     display: block;
 }
 
+.modal-checkbox-container{
+    margin-bottom: 24px;
+}
+
 .modal-checkbox{
     display: flex;
     align-items: center;
-    margin-bottom: 24px;
 }
 
 .modal-checkbox-icon{
@@ -892,4 +896,8 @@ svg[class*=modal-icon-]{
 
 .call-back-container{
     margin-bottom: 8px;
+}
+
+.textarea-container{
+    margin-bottom: 16px;
 }

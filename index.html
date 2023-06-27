@@ -465,10 +465,11 @@
               </svg>
             </div>
           </div>
-          <div class="call-back-container">
+          <div class="call-back-container textarea-container">
             <label
+              name="user-comment"
               for="user-comment"
-              class="modal-input-textcontainer p-style modal-input-description"
+              class="modal-input-container p-style modal-input-description"
               >Comment</label
             >
             <textarea
@@ -480,23 +481,26 @@
               id="user-comment"
             ></textarea>
           </div>
-          <label class="modal-checkbox">
+          <div class="callback-container modal-checkbox-container">
             <input
               class="modal-checkbox-input visually-hidden"
               type="checkbox"
               name="modal-checkbox"
               required
             />
-            <span class="modal-checkbox-icon">
-              <svg width="16" height="16" class="modal-checkbox-image">
-                <use href="./images/icons.svg#checkbox"></use>
-              </svg>
-            </span>
-            <span class="modal-checkbox-description">
-              I accept the terms and conditions of the
-              <a class="modal-link" href="#">Privacy Policy</a>
-            </span>
-          </label>
+            <label class="modal-checkbox" for="user-privacy"
+              >I accept the terms and conditions of the<span
+                class="modal-link"
+                href="#"
+                >Privacy Policy</span
+              >
+              <span class="modal-checkbox-icon">
+                <svg width="16" height="16" class="modal-checkbox-image">
+                  <use href="./images/icons.svg#checkbox"></use>
+                </svg> </span
+            ></label>
+          </div>
+
           <button class="modal-submit-button" type="submit">Send</button>
         </form>
       </div>
