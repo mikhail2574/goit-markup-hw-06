@@ -865,7 +865,7 @@ svg[class*=modal-icon-]{
 }
 
 .modal-checkbox-input:checked + .modal-checkbox .modal-checkbox-icon{
-    background-color: var(--btn-bg-passiv);
+    background-color: var(--active-color);
     fill: var(--btn-bg-passiv);
     opacity: 1;
 }
