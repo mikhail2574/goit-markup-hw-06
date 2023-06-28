@@ -811,7 +811,7 @@ svg[class*=modal-icon-]{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.48px;
-    color: rgba(46, 47, 66, 0.4);
+    color: rgba(46, 47, 66, 0.4);;
 
 }
 
@@ -819,7 +819,6 @@ svg[class*=modal-icon-]{
     height: 120px;
     padding: 8px 16px;
     resize: none;
-    color: var(--banner-bg);
 }
 
 .modal-input-textcontainer{
@@ -834,6 +833,10 @@ svg[class*=modal-icon-]{
 .modal-checkbox{
     display: flex;
     align-items: center;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--border-customers);
 }
 
 .modal-checkbox-icon{
