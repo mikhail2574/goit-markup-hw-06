@@ -831,8 +831,6 @@ svg[class*=modal-icon-]{
 }
 
 .modal-checkbox{
-    display: flex;
-    align-items: center;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
