@@ -860,18 +860,14 @@ svg[class*=modal-icon-]{
     letter-spacing: 0.48px;
 }
 
-.modal-checkbox-image{
-    opacity: 0;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .modal-checkbox-input:checked + .modal-checkbox .modal-checkbox-icon{
     border: none;
 }
 
-.modal-checkbox-input:checked .modal-checkbox-icon{
+.modal-checkbox-input:checked + .modal-checkbox .modal-checkbox-icon{
     background-color: var(--btn-bg-passiv);
     fill: var(--btn-bg-passiv);
+    opacity: 1;
 }
 
 .modal-link{
