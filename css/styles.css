@@ -131,7 +131,7 @@ h1{
     border-radius: 2px;
     background-color: var(--active-color);
     position: absolute;
-    bottom: -1px;
+    bottom: -2px;
     left: 0;
 }
 
@@ -670,6 +670,7 @@ nav{
 }
 
 .close-modal-icon{
+    fill: var(--banner-bg);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -727,6 +728,12 @@ nav{
     line-height: 1.5;
     letter-spacing: 0.04em;
     border: none;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-button:hover, .subscribe-button:focus{
+    background-color: var(--active-color);
 }
 
 .subscribe-button-flexcontainer{
@@ -750,7 +757,7 @@ nav{
 }
 
 .modal-title{
-    margin: 48px 0 16px;
+    margin: 0 0 16px;
     text-align: center;
     color: var(--banner-bg);
     font-size: 16px;
@@ -835,6 +842,9 @@ svg[class*=modal-icon-]{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--border-customers);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal-checkbox-icon{
@@ -870,6 +880,9 @@ svg[class*=modal-icon-]{
 
 .modal-link{
     color: var(--btn-bg);
+    text-decoration: underline;
+    display: inline-block;
+    margin-left: 3px;
 }
 
 .modal-submit-button{
