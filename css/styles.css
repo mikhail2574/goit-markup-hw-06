@@ -793,10 +793,6 @@ nav{
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input:hover{
-    border: 1px solid var(--btn-bg);
-}
-
 .modal-icon-name{
     position: absolute;
     top: 50%;
@@ -804,8 +800,7 @@ nav{
     transform: translateY(-50%);
 }
 
-.modal-input:focus{
-    outline: none;
+.modal-input:focus, .modal-input:hover{
     border: 1px solid var(--btn-bg);
 }
 
@@ -813,7 +808,7 @@ svg[class*=modal-icon-]{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input:focus + [class*=modal-icon-]{
+.modal-input:focus + [class*=modal-icon-], .modal-input:hover + [class*=modal-icon-]{
     fill: var(--btn-bg);
 }
 
