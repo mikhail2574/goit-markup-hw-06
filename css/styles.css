@@ -1,3 +1,4 @@
+
 :root {
     --text-color: #434455;
     --text-bold-color: #2E2F42;
@@ -785,10 +786,9 @@ nav{
     height: 40px;
     width: 100%;
     border-radius: 4px;
-    border: 1px solid var(--navyblue-modal);
+    border: 1px solid rgba(46, 47, 66, 0.40);
     padding: 8px 38px;
     background-color: transparent;
-    outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -842,22 +842,22 @@ svg[class*=modal-icon-]{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--border-customers);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .modal-checkbox-icon{
     display: inline-flex;
     width: 16px;
     height: 16px;
-    border: 1px solid var(--navyblue-modal);
+    border: 2px solid rgba(46, 47, 66, 0.40);
     border-radius: 2px;
     margin-right: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
     justify-content: center;
     fill: transparent;
+    color: currentColor;
+    background-color: transparent;
+    padding: 2px;
 }
 
 .modal-checkbox-description{
@@ -870,12 +870,7 @@ svg[class*=modal-icon-]{
 
 .modal-checkbox-input:checked + .modal-checkbox .modal-checkbox-icon{
     border: none;
-}
-
-.modal-checkbox-input:checked + .modal-checkbox .modal-checkbox-icon{
     background-color: var(--active-color);
-    fill: var(--btn-bg-passiv);
-    opacity: 1;
 }
 
 .modal-link{
