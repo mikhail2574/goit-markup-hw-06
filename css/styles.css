@@ -700,7 +700,6 @@ nav{
     padding: 8px 16px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    margin-right: 24px;
     width: 264px;
     height: 40px;
     line-height: 1.5;
@@ -755,6 +754,7 @@ nav{
     background-position: center;
     background-size: cover;
     margin-left: 16px;
+    fill: var(--banner-color);
 }
 
 .modal-title{
@@ -793,6 +793,10 @@ nav{
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-input:hover{
+    border: 1px solid var(--btn-bg);
+}
+
 .modal-icon-name{
     position: absolute;
     top: 50%;
@@ -803,7 +807,6 @@ nav{
 .modal-input:focus{
     outline: none;
     border: 1px solid var(--btn-bg);
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 svg[class*=modal-icon-]{
