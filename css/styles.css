@@ -206,11 +206,10 @@ button{
     color: var(--banner-bg);
 }
 
-.header-main{
-    background-color: var(--banner-bg);
-}
+
 
 .hero{
+    background-color: var(--banner-bg);
     background-image: linear-gradient( rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/main-bg.jpg);
     background-size: cover;
     background-position: center;
@@ -219,13 +218,13 @@ button{
     margin: 0 auto;
 }
 
-.header-main button{
+.hero button{
     color: var(--banner-color);
     background-color: var(--btn-bg);
     border: none;
 }
 
-.header-main h1{
+.hero h1{
     color: var(--banner-color);
     margin-bottom: 48px;
 }
